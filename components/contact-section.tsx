@@ -160,7 +160,7 @@ export function ContactSection() {
             {/* Map */}
             <div className="rounded-lg overflow-hidden shadow-lg h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52562.18071523346!2d-58.445!3d-34.6037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e10!2sBuenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2s!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.0!2d-54.6!3d-26.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f8b8b8b8b8b8b8%3A0x8b8b8b8b8b8b8b8b!2sEldorado%2C%20Misiones%2C%20Argentina!5e0!3m2!1ses!2s!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
