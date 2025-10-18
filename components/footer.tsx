@@ -52,15 +52,15 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Contacto</h3>
             <ul className="space-y-2 text-sm text-white/80">
-              <li>Buenos Aires, Argentina</li>
+              <li>Eldorado, Misiones</li>
               <li>
-                <a href="tel:+5491112345678" className="hover:text-white transition-colors">
-                  +54 9 11 1234-5678
+                <a href="tel:+543624244030" className="hover:text-white transition-colors">
+                  03624244030
                 </a>
               </li>
               <li>
-                <a href="mailto:info@mendezingenieria.com" className="hover:text-white transition-colors">
-                  info@mendezingenieria.com
+                <a href="mailto:juanimendezzz@gmail.com" className="hover:text-white transition-colors">
+                  juanimendezzz@gmail.com
                 </a>
               </li>
             </ul>

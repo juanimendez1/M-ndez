@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin, Linkedin } from "lucide-react"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -28,27 +28,25 @@ export function ContactSection() {
     {
       icon: Phone,
       title: "Teléfono / WhatsApp",
-      content: "+54 9 11 1234-5678",
-      link: "tel:+5491112345678",
+      content: "03624244030",
+      link: "tel:+543624244030",
     },
     {
       icon: Mail,
       title: "Correo Electrónico",
-      content: "info@mendezingenieria.com",
-      link: "mailto:info@mendezingenieria.com",
+      content: "juanimendezzz@gmail.com",
+      link: "mailto:juanimendezzz@gmail.com",
     },
     {
       icon: MapPin,
       title: "Ubicación",
-      content: "Buenos Aires, Argentina",
+      content: "Eldorado, Misiones",
       link: "#",
     },
   ]
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/juanignaciom%C3%A9ndez/", label: "LinkedIn" },
   ]
 
   return (
