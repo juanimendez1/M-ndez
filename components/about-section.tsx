@@ -1,5 +1,5 @@
 import { CheckCircle } from "lucide-react"
-
+//prueba
 export function AboutSection() {
   const highlights = [
     "Más de 15 años de experiencia en el sector",
