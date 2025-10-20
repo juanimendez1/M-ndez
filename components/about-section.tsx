@@ -2,10 +2,10 @@ import { CheckCircle } from "lucide-react"
 //prueba
 export function AboutSection() {
   const highlights = [
-    "Más de 15 años de experiencia en el sector",
-    "Equipo de profesionales altamente capacitados",
-    "Soluciones personalizadas para cada cliente",
-    "Compromiso con la calidad y la seguridad",
+    "Prioridad en la seguridad y la calidad",
+    "Garantía en todos nuestros trabajos",
+    "Soluciones integrales adaptadas a cada cliente",
+    "Asesoramiento técnico y soporte continuo",
   ]
 
   return (
@@ -24,15 +24,13 @@ export function AboutSection() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Quiénes Somos</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              En <strong>Méndez Ingeniería & Control</strong>, somos una empresa especializada en ingeniería eléctrica,
-              automatización y control industrial. Con años de experiencia en el sector, nos dedicamos a brindar
-              soluciones integrales que combinan tecnología de punta, profesionalismo y un profundo compromiso con la
-              seguridad.
+              En <strong>Méndez Ingeniería & Control</strong>, brindamos soluciones en ingeniería eléctrica, automatización y control industrial con un enfoque absoluto en la seguridad, la calidad y la garantía de resultados.
+            </p>
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Nos distinguimos por nuestro compromiso en cada proyecto, asegurando instalaciones seguras, eficientes y duraderas que cumplen con los más altos estándares técnicos y normativos.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Nuestro equipo de ingenieros y técnicos altamente capacitados trabaja en estrecha colaboración con cada
-              cliente para diseñar, implementar y mantener sistemas eléctricos e industriales que optimicen sus
-              operaciones y garanticen resultados confiables.
+              Contamos con un equipo de profesionales especializados que trabaja junto a cada cliente para diseñar, ejecutar y mantener sistemas adaptados a sus necesidades, garantizando un funcionamiento confiable y un servicio postventa de respaldo permanente.
             </p>
 
             <div className="space-y-4">

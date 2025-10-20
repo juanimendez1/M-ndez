@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Logo } from "@/components/logo"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -17,16 +18,8 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-lg leading-tight">Méndez Ingeniería</span>
-                <span className="text-white/80 text-xs">& Control</span>
-              </div>
+            <div className="mb-4">
+              <Logo size="md" />
             </div>
             <p className="text-white/80 text-sm leading-relaxed">
               Soluciones integrales en ingeniería eléctrica y automatización industrial. Innovación, calidad y
