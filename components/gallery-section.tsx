@@ -8,28 +8,28 @@ export function GallerySection() {
 
   const images = [
     {
-      src: "/industrial-electrical-panel-installation.jpg",
-      alt: "Instalación de tablero eléctrico industrial",
-    },
-    {
       src: "/plc-automation-control-system.jpg",
       alt: "Sistema de control con PLC",
-    },
-    {
-      src: "/electrical-maintenance-work.jpg",
-      alt: "Mantenimiento eléctrico preventivo",
     },
     {
       src: "/led-industrial-lighting-installation.jpg",
       alt: "Proyecto de iluminación LED",
     },
     {
-      src: "/thermographic-inspection-electrical.jpg",
-      alt: "Inspección termográfica",
+      src: "/termografia 1.jpeg",
+      alt: "Análisis termográfico de instalaciones eléctricas",
     },
     {
       src: "/electrical-control-cabinet-wiring.jpg",
       alt: "Cableado de tablero de control",
+    },
+    {
+      src: "/variador de frecuencia.jpeg",
+      alt: "Variador de frecuencia industrial",
+    },
+    {
+      src: "/Variador de frecuencia 2.jpeg",
+      alt: "Sistema de variador de frecuencia",
     },
   ]
 
