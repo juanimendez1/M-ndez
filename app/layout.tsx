@@ -5,7 +5,7 @@ import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
-
+//esta parte es para las fuentes de la pagina
 export const metadata: Metadata = {
   title: "Méndez Ingeniería & Control | Soluciones Eléctricas e Industriales",
   description:
