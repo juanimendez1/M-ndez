@@ -47,8 +47,8 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-white/80">
               <li>Eldorado, Misiones</li>
               <li>
-                <a href="tel:+543624244030" className="hover:text-white transition-colors">
-                  03624244030
+                <a href="tel:+5493624244030" className="hover:text-white transition-colors">
+                  +54 9 362 4244030
                 </a>
               </li>
               <li>

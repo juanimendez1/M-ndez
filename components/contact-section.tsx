@@ -28,8 +28,8 @@ export function ContactSection() {
     {
       icon: Phone,
       title: "Teléfono / WhatsApp",
-      content: "03624244030",
-      link: "tel:+543624244030",
+      content: "+54 9 362 4244030",
+      link: "tel:+5493624244030",
     },
     {
       icon: Mail,
